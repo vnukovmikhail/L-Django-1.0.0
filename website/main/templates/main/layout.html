@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+</head>
+<body>
+    <style>
+        * { font-family: monospace; margin: 0; }
+        body { margin: 5px; }
+    </style>
+    <nav>
+      <a href="/">main</a>
+        |
+      <a href="/about">about</a>
+        |
+      <a href="/contacts">contacts</a>
+    </nav>
+
+    <h1>{% block h1 %}{% endblock %}</h1>
+
+    <footer>
+        copyright &copy; all rights reserved.
+    </footer>
+</body>
+</html>
